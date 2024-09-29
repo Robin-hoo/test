@@ -1,1 +1,4 @@
-text test bla bla
+nếu chọn cancel thif eslip sẽ như ban đầu 
+không tự động lưu khi ta chạy
+conf chọn yes thif sau moiix khi chạy chương trình 
+nó sẽ tự lưu
