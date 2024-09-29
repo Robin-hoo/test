@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class TinhToan {
+
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a: ");
+        double a = scanner.nextDouble();
+        System.out.print("Enter b: ");
+        double b = scanner.nextDouble();
+
+        scanner.close();
+        
+        // Tong
+        System.out.print("Tong: ");
+        System.out.print(a + b);
+        System.out.println();
+
+        // Hieu
+        System.out.print("Hieu: ");
+        System.out.print(a - b);
+        System.out.println();
+
+        // Tich
+        System.out.print("Tich cua a va b: ");
+        System.out.print(a * b);
+        System.out.println();
+
+        // Thuong cua a va b
+        System.out.print("Thuong cua a va b la: ");
+        System.out.print(a/b);
+        System.out.println();
+
+    }
+    
+}
